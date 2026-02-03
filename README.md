@@ -12,6 +12,12 @@ Welcome to the repository for the Hotel Booking project. This is a web applicati
 You can view the live project here:
 👉 **[Open Website on GitHub Pages](https://alexandra-adamchyk.github.io/hotel/)**
 
+## 📷 Gallery
+
+| Home Page | Rooms & Booking | Guests Info |
+|:---:|:---:|:---:|
+| <img src="screenshots/1.png" width="100%"> | <img src="screenshots/2.png" width="100%"> | <img src="screenshots/3.png" width="100%"> |
+
 ---
 
 ## 📂 Project Structure
