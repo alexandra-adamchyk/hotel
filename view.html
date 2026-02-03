@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перегляд даних</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span>Готелю</span>
+        </div>
+        <div class="nav-links">
+            <a href="main.html" class="btn-secondary">Головна</a>
+            <button class="btn-logout" onclick="logout()">Вихід</button>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="page-header">
+            <h1>Перегляд даних</h1>
+            <p class="page-subtitle">Звіти та статистика готелю</p>
+        </div>
+        
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="rooms">Номери</button>
+            <button class="tab-btn" data-tab="guests">Відвідувачі</button>
+            <button class="tab-btn" data-tab="bookings">Бронювання</button>
+            <button class="tab-btn" data-tab="services">Послуги</button>
+        </div>
+        
+        <div class="tab-content active" id="rooms-tab">
+            <h2>Номери готелю</h2>
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>№ Номера</th>
+                            <th>Тип</th>
+                            <th>Ціна за добу</th>
+                            <th>Знижка</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody id="roomsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="guests-tab">
+            <h2>Зареєстровані відвідувачі</h2>
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ПІБ</th>
+                            <th>Паспорт</th>
+                            <th>Телефон</th>
+                            <th>Email</th>
+                            <th>Номер</th>
+                            <th>Заїзд</th>
+                            <th>Виїзд</th>
+                        </tr>
+                    </thead>
+                    <tbody id="guestsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="bookings-tab">
+            <h2>Бронювання номерів</h2>
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Клієнт</th>
+                            <th>Тип номера</th>
+                            <th>Заїзд</th>
+                            <th>Виїзд</th>
+                            <th>Гостей</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bookingsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="services-tab">
+            <h2>Надані послуги</h2>
+            <div class="table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Клієнт</th>
+                            <th>Послуга</th>
+                            <th>Кількість</th>
+                            <th>Ціна</th>
+                            <th>Дата</th>
+                            <th>Сума</th>
+                        </tr>
+                    </thead>
+                    <tbody id="servicesTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts/view.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Готель - Головна</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span>Готель</span>
+        </div>
+        <button class="btn-logout" onclick="logout()">Вихід</button>
+    </nav>
+    
+    <div class="container">
+        <div class="page-header">
+            <h1>Головне меню</h1>
+            <p class="page-subtitle">Оберіть необхідний розділ для роботи</p>
+        </div>
+        
+        <div class="menu-grid">
+            <a href="rooms.html" class="menu-card">
+                <h3>Управління номерами</h3>
+                <p>Додавання, редагування та перегляд номерів готелю</p>
+            </a>
+            
+            <a href="guests.html" class="menu-card">
+                <h3>Реєстрація відвідувачів</h3>
+                <p>Введення даних про клієнтів готелю</p>
+            </a>
+            
+            <a href="bookings.html" class="menu-card">
+                <h3>Бронювання номерів</h3>
+                <p>Створення та перегляд бронювань</p>
+            </a>
+            
+            <a href="services.html" class="menu-card">
+                <h3>Додаткові послуги</h3>
+                <p>Харчування, прибирання, трансфер</p>
+            </a>
+            
+            <a href="calculation.html" class="menu-card">
+                <h3>Розрахунок вартості</h3>
+                <p>Підрахунок вартості зі знижками</p>
+            </a>
+            
+            <a href="view.html" class="menu-card">
+                <h3>Перегляд даних</h3>
+                <p>Звіти та статистика готелю</p>
+            </a>
+        </div>
+    </div>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
