@@ -14,9 +14,15 @@ You can view the live project here:
 
 ## 📷 Gallery
 
-| Home Page | Rooms & Booking | Guests Info |
-|:---:|:---:|:---:|
-| <img src="screenshots/1.png" width="100%"> | <img src="screenshots/2.png" width="100%"> | <img src="screenshots/3.png" width="100%"> |
+### User Interface & Features
+
+| Main Menu | Guest Registration | Room Booking |
+| :---: | :---: | :---: |
+| <img src="screenshots/menu.png" width="100%" alt="Main Menu"> | <img src="screenshots/guests.png" width="100%" alt="Guest Registration"> | <img src="screenshots/booking.png" width="100%" alt="Room Booking"> |
+
+| Additional Services | Cost Calculation | Data Overview |
+| :---: | :---: | :---: |
+| <img src="screenshots/services.png" width="100%" alt="Services"> | <img src="screenshots/calc.png" width="100%" alt="Calculation"> | <img src="screenshots/view.png" width="100%" alt="Data View"> |
 
 ---
 
